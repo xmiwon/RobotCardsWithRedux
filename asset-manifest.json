@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/RobotCardsWithRedux/static/css/main.71a22271.chunk.css",
-    "main.js": "/RobotCardsWithRedux/static/js/main.a9725d68.chunk.js",
-    "main.js.map": "/RobotCardsWithRedux/static/js/main.a9725d68.chunk.js.map",
-    "runtime-main.js": "/RobotCardsWithRedux/static/js/runtime-main.b1faf292.js",
-    "runtime-main.js.map": "/RobotCardsWithRedux/static/js/runtime-main.b1faf292.js.map",
+    "main.js": "/RobotCardsWithRedux/static/js/main.3709c43a.chunk.js",
+    "main.js.map": "/RobotCardsWithRedux/static/js/main.3709c43a.chunk.js.map",
+    "runtime-main.js": "/RobotCardsWithRedux/static/js/runtime-main.828b2b19.js",
+    "runtime-main.js.map": "/RobotCardsWithRedux/static/js/runtime-main.828b2b19.js.map",
     "static/css/2.31461e4f.chunk.css": "/RobotCardsWithRedux/static/css/2.31461e4f.chunk.css",
     "static/js/2.8ee04e52.chunk.js": "/RobotCardsWithRedux/static/js/2.8ee04e52.chunk.js",
     "static/js/2.8ee04e52.chunk.js.map": "/RobotCardsWithRedux/static/js/2.8ee04e52.chunk.js.map",
+    "static/js/3.652b283b.chunk.js": "/RobotCardsWithRedux/static/js/3.652b283b.chunk.js",
+    "static/js/3.652b283b.chunk.js.map": "/RobotCardsWithRedux/static/js/3.652b283b.chunk.js.map",
     "index.html": "/RobotCardsWithRedux/index.html",
     "service-worker.js": "/RobotCardsWithRedux/service-worker.js",
     "service-worker.js.map": "/RobotCardsWithRedux/service-worker.js.map",
@@ -16,10 +18,10 @@
     "static/js/2.8ee04e52.chunk.js.LICENSE.txt": "/RobotCardsWithRedux/static/js/2.8ee04e52.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1faf292.js",
+    "static/js/runtime-main.828b2b19.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.8ee04e52.chunk.js",
     "static/css/main.71a22271.chunk.css",
-    "static/js/main.a9725d68.chunk.js"
+    "static/js/main.3709c43a.chunk.js"
   ]
 }
