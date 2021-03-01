@@ -8,7 +8,7 @@ import './index.css';
 import App from './containers/App';
 import 'tachyons'
 import { searchRobots, requestRobots } from './reducers';
-
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 const logger = createLogger();
 const rootReducer = combineReducers({ searchRobots, requestRobots})
@@ -26,3 +26,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://cra.link/PWA
+serviceWorkerRegistration.register();
