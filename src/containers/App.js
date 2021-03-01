@@ -36,20 +36,20 @@ class App extends React.Component {
             return robot.name.toLowerCase().includes(searchField.toLowerCase()) 
         })
 
-        return isPending ?
-            <p>Loading..</p> :
-            (
-                <div className="tc">
-                    <Header />
-                    <SearchBox searchChange={onSearchChange} searchfield={searchField} />
-                    <Scroll>
-                        <ErrorBoundry>
-                            <CardList robots={filteredRobots} />
-                        </ErrorBoundry>
-                    </Scroll>
-                </div>
-            )
-    }
-}
+        return (
+            <div className='tc'>
+              <Header />
+              <SearchBox searchChange={onSearchChange}/>
+              <Scroll>
+                { isPending ? <h1>Loading</h1> :
+                  <ErrorBoundry>
+                    <CardList robots={filteredRobots} />
+                  </ErrorBoundry>
+                }
+              </Scroll>
+            </div>
+          );
+        }
+      }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
